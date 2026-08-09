@@ -4,15 +4,11 @@ int main(){
     int a,b;
     cout<<"Enter a number: ";
     cin>>a;
-    
-    cout<<"Enter a number: ";
-    cin>>b;
     for(int i=1; i<=a; i++){
-        for(int j=1; j<=b; j++){
-            cout<<i<<" ";
+        for(int j=1; j<=a; j++){
+            cout<<j<<" ";
         }
         cout<<endl;
-    } 
+    }
     return 0;
-
 }
